@@ -234,8 +234,12 @@ a { color: var(--walnut); }
 }
 .about-meta dd { margin: 0; }
 
-/* ---------- Contact ---------- */
+/* ---------- Contact / Follow ---------- */
 .contact { padding: 84px 0 96px; }
+.follow-row { max-width: 620px; margin: 0 auto; text-align: center; }
+.follow-copy p { margin-left: auto; margin-right: auto; }
+.follow-copy .btn { margin-top: 8px; }
+.follow-note { margin-top: 20px; font-size: 0.9rem; }
 .contact-row { display: grid; grid-template-columns: 1fr 1.1fr; gap: 56px; }
 .contact-list { list-style: none; margin: 28px 0 0; padding: 0; }
 .contact-list li {
