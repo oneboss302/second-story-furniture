@@ -1,15 +1,15 @@
 /* ---------- Tokens ---------- */
 :root {
-  --bg: #EFEBE4;
-  --bg-alt: #E2DCD1;
-  --paper: #FAF8F4;
-  --ink: #24201C;
-  --ink-soft: #55504A;
-  --walnut: #6B4226;
-  --walnut-dark: #4E2F1B;
-  --oak: #B08857;
-  --line: #D6CFC2;
-  --line-strong: #C2B8A6;
+  --bg: #EEF1F5;
+  --bg-alt: #E1E8EE;
+  --paper: #FFFFFF;
+  --ink: #1C232C;
+  --ink-soft: #56626D;
+  --walnut: #2F5170;
+  --walnut-dark: #1E3A52;
+  --oak: #7398AF;
+  --line: #D2DBE3;
+  --line-strong: #B4C2CC;
 
   --font-display: 'Fraunces', serif;
   --font-head: 'Archivo', sans-serif;
@@ -96,7 +96,7 @@ a { color: var(--walnut); }
 /* ---------- Header ---------- */
 .site-header {
   position: sticky; top: 0; z-index: 20;
-  background: rgba(239, 235, 228, 0.92);
+  background: rgba(238, 241, 245, 0.92);
   backdrop-filter: blur(6px);
   border-bottom: 1px solid var(--line);
 }
@@ -208,15 +208,15 @@ a { color: var(--walnut); }
   border: 1px solid var(--line);
 }
 .gallery-item.tall { grid-row: span 2; }
-.swatch-walnut { background: linear-gradient(155deg, #7A4E30, #5A3620); }
-.swatch-oak { background: linear-gradient(155deg, #C29A67, #A07A4C); }
-.swatch-stone { background: linear-gradient(155deg, #D9D2C4, #BFB6A4); }
-.swatch-ink { background: linear-gradient(155deg, #3A342D, #24201C); }
+.swatch-walnut { background: linear-gradient(155deg, #3D5F7D, #24435D); }
+.swatch-oak { background: linear-gradient(155deg, #83A6BC, #5F869E); }
+.swatch-stone { background: linear-gradient(155deg, #DEE5EA, #C4D0D8); }
+.swatch-ink { background: linear-gradient(155deg, #2A323C, #181E26); }
 
 .gallery-item figcaption {
   width: 100%;
   padding: 14px 16px;
-  background: rgba(250, 248, 244, 0.94);
+  background: rgba(255, 255, 255, 0.94);
   display: flex; flex-direction: column; gap: 2px;
 }
 .piece-name { font-family: var(--font-head); font-weight: 600; font-size: 0.92rem; color: var(--ink); }
