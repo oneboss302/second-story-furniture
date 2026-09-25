@@ -113,7 +113,7 @@ a { color: var(--walnut); }
 }
 .header-row {
   display: flex; align-items: center; justify-content: space-between;
-  padding-top: 20px; padding-bottom: 20px;
+  padding-top: 16px; padding-bottom: 16px;
 }
 .wordmark {
   font-family: var(--font-display);
@@ -122,16 +122,26 @@ a { color: var(--walnut); }
   color: var(--ink);
   text-decoration: none;
   line-height: 1.1;
-  display: flex; flex-direction: column;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+.header-logo {
+  height: 42px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 4px;
 }
 .wordmark-sub {
+  display: block;
   font-family: var(--font-head);
   font-style: normal;
   font-size: 0.58rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--ink-soft);
-  margin-top: 3px;
+  margin-top: 2px;
 }
 .site-nav { display: flex; align-items: center; gap: 32px; }
 .site-nav a {
