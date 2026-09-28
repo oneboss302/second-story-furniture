@@ -274,13 +274,28 @@ a { color: var(--walnut); }
 .spec dd { margin: 0; font-size: 0.9rem; color: var(--ink); }
 .work-more { margin-top: 40px; font-size: 0.92rem; }
 
+/* Work cards */
+.cards {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 56px 44px;
+}
+.card { display: flex; flex-direction: column; }
+.card-media { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.card-media .ba picture { padding-top: 125%; }
+.card-copy { padding-top: 24px; }
+.card-copy p { font-size: 0.97rem; }
+
 @media (max-width: 900px) {
   .feature { grid-template-columns: 1fr; gap: 36px; }
   .feature-media { max-width: 58%; }
+  .cards { grid-template-columns: 1fr; gap: 56px; }
 }
 @media (max-width: 520px) {
   .feature-media { grid-template-columns: 1fr; gap: 28px; max-width: 72%; }
   .spec > div { grid-template-columns: 1fr; gap: 4px; }
+  .card-media { gap: 10px; }
 }
 
 /* ---------- About ---------- */
